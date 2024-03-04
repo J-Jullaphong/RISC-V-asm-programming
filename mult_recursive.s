@@ -49,7 +49,7 @@ mult:
     add a0, a0, t1
     
     lw ra, 0(sp)
-    addi sp, sp 4
+    addi sp, sp, 4
     jr ra
     
 exit_base_case:
