@@ -46,3 +46,7 @@ exit:
     addi a0, x0, 11
     addi a1, x0, 10
     ecall
+    
+    # exit cleanly
+    addi a0, x0, 10 
+    ecall
